@@ -20,3 +20,29 @@ vel_y = 0;
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "grav_speed"
 grav_speed = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 06400278
+/// @DnDArgument : "expr" "23"
+/// @DnDArgument : "var" "jump_speed"
+jump_speed = 23;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1F6E38CB
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "grounded"
+grounded = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5406AD0F
+/// @DnDArgument : "var" "grounded_x"
+grounded_x = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6739F4E2
+/// @DnDArgument : "var" "grounded_y"
+grounded_y = 0;
