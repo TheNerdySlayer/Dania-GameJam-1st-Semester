@@ -23,26 +23,21 @@ grav_speed = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 06400278
+/// @DnDHash : 2923FCA8
 /// @DnDArgument : "expr" "23"
 /// @DnDArgument : "var" "jump_speed"
 jump_speed = 23;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 1F6E38CB
+/// @DnDHash : 3D6E1954
+/// @DnDInput : 3
 /// @DnDArgument : "expr" "false"
+/// @DnDArgument : "expr_1" "x"
+/// @DnDArgument : "expr_2" "y"
 /// @DnDArgument : "var" "grounded"
+/// @DnDArgument : "var_1" "grounded_x"
+/// @DnDArgument : "var_2" "grounded_y"
 grounded = false;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 5406AD0F
-/// @DnDArgument : "var" "grounded_x"
-grounded_x = 0;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 6739F4E2
-/// @DnDArgument : "var" "grounded_y"
-grounded_y = 0;
+grounded_x = x;
+grounded_y = y;
